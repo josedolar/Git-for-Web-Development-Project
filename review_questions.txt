@@ -1,0 +1,37 @@
+Stretch Review questions: 
+    1. What is the difference between an inline element and a block element?
+    ans: inline element (ex:span) stay within the same line while block elements (exp:p) starts on a new line. 
+
+    2. What happens when an element is positioned absolutely? 
+    ans: The element will be rendered in the specified position. 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        Ans: in css, specify max-width: and set margin to auto.
+        max-with: 
+        margin:auto;
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block by default:
+    1.p, 2.div, 3.form
+
+    inline:
+    1. span 2.a
+
+    display block by defaul:
+    1. p
+
+    5. In your own words, explain the box model. What is the fix for the box model?            
+    answer:  The box model in CSS is composed of Margin, Borders and Padding.    
+     The margin - the outmost layer, controls the distance of the element from its neighbors.
+     The Border -the second layer, controls the distance from the margin to the outline of the content. 
+     The Padding - the third layer, controls the distance from the border to the content.
+
+Stretch Git Tasks
+- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
+  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
